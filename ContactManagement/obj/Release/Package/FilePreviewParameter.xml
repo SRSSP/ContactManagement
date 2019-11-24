@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Contacts-Management" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\MyCode\\ContactManagement\\ContactManagement\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\MyCode\\ContactManagement\\ContactManagement\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DataAccessLayer.ContactManagementDbContext-Web.config Connection String" description="" value="DataAccessLayer.ContactManagementDbContext_ConnectionString" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\MyCode\\ContactManagement\\ContactManagement\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DataAccessLayer.ContactManagementDbContext']/@connectionString" />
+  </parameter>
+</parameters>

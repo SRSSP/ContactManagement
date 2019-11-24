@@ -1,0 +1,42 @@
+﻿@using System.Activities.Statements
+@model IEnumerable<BusinessAccessLayer.ContactEntity>
+
+@{
+    ViewBag.Title = "All Contacts";
+}
+
+<h2>All Contacts</h2>
+
+<p>
+    @Html.ActionLink("Create New", "CreateContact")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LastName)
+        </th>
+        <th>
+            <span>Actions</span>
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.ActionLink("Details", "GetDetails", new { id = item.ContactId }) |
+                @Html.ActionLink("Delete", "DeleteContact", new { id = item.ContactId })
+            </td>
+        </tr>
+    }
+
+</table>
