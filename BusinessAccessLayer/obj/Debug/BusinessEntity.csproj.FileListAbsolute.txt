@@ -1,0 +1,8 @@
+C:\Mycode\ContactManagement\BusinessAccessLayer\bin\Debug\BusinessAccessLayer.dll
+C:\Mycode\ContactManagement\BusinessAccessLayer\bin\Debug\BusinessAccessLayer.pdb
+C:\Mycode\ContactManagement\BusinessAccessLayer\obj\Debug\BusinessEntity.csprojAssemblyReference.cache
+C:\Mycode\ContactManagement\BusinessAccessLayer\obj\Debug\BusinessEntity.csproj.CoreCompileInputs.cache
+C:\Mycode\ContactManagement\BusinessAccessLayer\obj\Debug\BusinessAccessLayer.dll
+C:\Mycode\ContactManagement\BusinessAccessLayer\obj\Debug\BusinessAccessLayer.pdb
+C:\MyCode\ContactManagement\BusinessAccessLayer\bin\Debug\System.ComponentModel.Annotations.dll
+C:\MyCode\ContactManagement\BusinessAccessLayer\obj\Debug\BusinessEntity.csproj.CopyComplete
